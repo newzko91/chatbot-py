@@ -1,0 +1,37 @@
+<aiml version="1.0">
+
+<!-- 
+    Essa categoria é colocada por padrão nos arquivos AIML e tem por função carregar/aprender
+    o conhecimento dos outros arquivos.
+-->
+<category>
+<pattern>LOAD AIML B</pattern>
+<template>
+
+<!-- Base de conhecimento que tem as frases de cumprimentos e agradecimentos -->
+<learn>aiml/atendimento-secretaria/recepcao-cumprimentos.aiml</learn>
+
+<!-- Bases de conhecimento com cada uma das perguntas frequentes -->
+<learn>aiml/atendimento-secretaria/pergunta-01.aiml</learn>
+<learn>aiml/atendimento-secretaria/pergunta-02.aiml</learn>
+<learn>aiml/atendimento-secretaria/pergunta-03.aiml</learn>
+<learn>aiml/atendimento-secretaria/pergunta-04.aiml</learn>
+<learn>aiml/atendimento-secretaria/pergunta-05.aiml</learn>
+<learn>aiml/atendimento-secretaria/pergunta-06.aiml</learn>
+<learn>aiml/atendimento-secretaria/pergunta-07.aiml</learn>
+<learn>aiml/atendimento-secretaria/pergunta-08.aiml</learn>
+<learn>aiml/atendimento-secretaria/pergunta-09.aiml</learn>
+<learn>aiml/atendimento-secretaria/pergunta-10.aiml</learn>
+<learn>aiml/atendimento-secretaria/pergunta-11.aiml</learn>
+<learn>aiml/atendimento-secretaria/pergunta-12.aiml</learn>
+<learn>aiml/atendimento-secretaria/pergunta-13.aiml</learn>
+
+<!--
+    Arquivo original criado antes da primeira avaliação, que tinha 79 categorias
+    <learn>aiml/atendimento-secretaria/info_escola.aiml</learn>
+-->
+
+</template>
+</category>
+
+</aiml>

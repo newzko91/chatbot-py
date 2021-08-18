@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!-- Meu filho encontra-se doente e tem prova, como proceder? --> 
+
+<category><pattern>_ ESTOU COM UM PROBLEMA _</pattern><template>Entendi. Pode me detalhar o problema, por gentileza? </template></category>
+<category><pattern>_ QUE MEU FILHO ESTÁ DOENTE E TEM PROVA</pattern><template>Certo, melhoras pra ele. Traga o atestado médico que ele poderá fazer a prova. </template></category>
+<category><pattern>_ QUE MINHA FILHA ESTÁ DOENTE E TEM PROVA</pattern><template>Certo, melhoras pra ela. Traga o atestado médico que ela poderá fazer a prova. </template></category>
+<category><pattern>COMO REMARCAR PROVA</pattern><template>Apenas em caso de doença a prova é remarcada. Apresente o atestado médico que a prova poderá ser remarcada. </template></category>
+<category><pattern>COMO _ $PROVA</pattern><template>Apenas em caso de doença a prova é remarcada. Apresente o atestado médico que a prova poderá ser remarcada. </template></category>
+<category><pattern>MEU FILHO PERDEU _ PROVA, COMO POSSO FAZER</pattern><template>Apenas em caso de doença a prova é remarcada. Apresente o atestado médico que a prova poderá ser remarcada. </template></category>
+<category><pattern>MINHA FILHA PERDEU _ PROVA, COMO POSSO FAZER</pattern><template>Apenas em caso de doença a prova é remarcada. Apresente o atestado médico que a prova poderá ser remarcada. </template></category>
+<category><pattern>MEU FILHO PERDEU _ PROVA, COMO POSSO REMARCAR</pattern><template>Apenas em caso de doença a prova é remarcada. Apresente o atestado médico que a prova poderá ser remarcada. </template></category>
+<category><pattern>MINHA FILHA PERDEU _ PROVA, COMO POSSO REMARCAR</pattern><template>Apenas em caso de doença a prova é remarcada. Apresente o atestado médico que a prova poderá ser remarcada. </template></category>
+<category><pattern>COMO FUNCIONA * DE PROVA</pattern><template>Apenas em caso de doença a prova é remarcada. Apresente o atestado médico que a prova poderá ser remarcada. </template></category>
+
+
+</aiml>

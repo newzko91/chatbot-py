@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--A partir de qual idade vocês pegam, qual a idade limite? -->
+
+<category><pattern>A PARTIR DE QUAL IDADE VOCÊS PEGAM</pattern><template>Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>
+<category><pattern>A PARTIR DE QUAL IDADE VOCÊS PEGAM E QUAL A DATA LIMITE</pattern><template>Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>     
+<category><pattern>QUAL A DATA LIMITE</pattern><template>Não entendi bem =\ pode detalhar melhor pra mim, por favor?</template></category>
+<category><pattern>A DATA LIMITE QUE VOCÊS PEGAM</pattern><template>Ah, sim! Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>
+<category><pattern>A PARTIR DE QUAL IDADE VOCÊS PEGAM</pattern><template>Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>
+<category><pattern>_ A PARTIR DE QUAL IDADE _</pattern><template>Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>
+<category><pattern>_ A IDADE MINIMA _</pattern><template>Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>
+<category><pattern>_ PEGAM A PARTIR DE QUAL IDADE</pattern><template>Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>
+<category><pattern>QUAL A DATA LIMITE _ QUE VOCÊS PEGAM</pattern><template>Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>
+<category><pattern>QUAL A DATA LIMITE _ QUE VOCES PEGAM</pattern><template>Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>
+
+
+</aiml>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Como faço para agendar uma visita ao Colégio e matricular meu(minha) filho(a)? -->
+
+<category><pattern>COMO FAÇO PARA AGENDAR UMA VISITA AO COLÉGIO E MATRICULAR MEU FILHO</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+<category><pattern>COMO FAÇO PARA AGENDAR UMA VISITA AO COLÉGIO E MATRICULAR MINHA FILHA</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+<category><pattern>COMO * PARA AGENDAR UMA VISITA AO * E MATRICULAR MINHA FILHA</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+<category><pattern>COMO * PARA AGENDAR UMA VISITA AO * E MATRICULAR MEU FILHO</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+<category><pattern>_ COMO * PARA AGENDAR UMA VISITA AO * E MATRICULAR MEU FILHO</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+<category><pattern>POSSO AGENDAR UMA VISITA AO *</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+<category><pattern>POSSO MATRICULAR MEU FILHO NO *</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+<category><pattern>POSSO MATRICULAR MINHA FILHA NO *</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+<category><pattern>QUERO MATRICULAR MINHA FILHA _</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+<category><pattern>QUERO MATRICULAR MEU FILHO _</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+
+
+</aiml>

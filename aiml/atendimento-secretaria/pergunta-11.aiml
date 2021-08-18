@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Meu filho tem 5 anos de idade e nunca frequentou escola, o que devo fazer? -->
+
+<category><pattern>MEU FILHO TEM 5 ANOS DE IDADE E NUNCA FREQUENTOU ESCOLA, O QUE DEVO FAZER</pattern><template>Pode ser matriculado sem problemas, seguindo o que é explicado no item 10.</template></category>
+<category><pattern>_ MEU FILHO TEM 5 ANOS * E NUNCA FREQUENTOU ESCOLA * FAZER</pattern><template>Pode ser matriculado normalmente. <br></br> Lembrando que, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>_ MEU FILHO _ NUNCA FREQUENTOU ESCOLA</pattern><template>Pode ser matriculado normalmente. <br></br> Lembrando que, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>_ MEU FILHO NUNCA FREQUENTOU ESCOLA</pattern><template>Pode ser matriculado normalmente. <br></br> Lembrando que, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>MINHA FILHA TEM 5 ANOS DE IDADE E NUNCA FREQUENTOU ESCOLA _ QUE DEVO FAZER</pattern><template>Pode ser matriculado sem problemas, seguindo o que é explicado no item 10.</template></category>
+<category><pattern>_ MINHA FILHA TEM 5 ANOS E NUNCA FREQUENTOU ESCOLA, O QUE POSSO FAZER</pattern><template>Pode ser matriculado normalmente. <br></br> Lembrando que, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>_ MINHA FILHA _ NUNCA FREQUENTOU ESCOLA</pattern><template>Pode ser matriculado normalmente. <br></br> Lembrando que, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>_ MINHA FILHA NUNCA FREQUENTOU ESCOLA</pattern><template>Pode ser matriculado normalmente. <br></br> Lembrando que, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>MEU FILHO NUNCA FREQUENTOU ESCOLA, COMO POSSO FAZER</pattern><template>Pode ser matriculado normalmente. <br></br> Lembrando que, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>MINHA FILHA NUNCA FREQUENTOU ESCOLA, COMO POSSO FAZER</pattern><template>Pode ser matriculado normalmente. <br></br> Lembrando que, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+
+
+
+</aiml>

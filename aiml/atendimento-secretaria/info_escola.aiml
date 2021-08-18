@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">                                                   -->
+
+<!-- Meu filho encontra-se doente e tem prova, como proceder? --> 
+
+<category><pattern>_ ESTOU COM UM PROBLEMA _</pattern><template>Entendi. Pode me detalhar o problema, por gentileza? </template></category>
+<category><pattern>_ QUE MEU FILHO ESTÁ DOENTE E TEM PROVA</pattern><template>Certo, melhoras pra ele. Traga o atestado médico que ele poderá fazer a prova. </template></category>
+<category><pattern>_ QUE MINHA FILHA ESTÁ DOENTE E TEM PROVA</pattern><template>Certo, melhoras pra ela. Traga o atestado médico que ela poderá fazer a prova. </template></category>
+
+<!-- Gostaria de falar com a coordenadora. -->
+
+<category><pattern>POSSO FALAR COM A COORDENADORA</pattern><that>Qual a turma do aluno?</that><template>Certo, melhoras pra ele. Traga o atestado médico que ele poderá fazer a prova. </template></category>
+<category><pattern>_ FALAR COM A COORDENADORA</pattern><template>É efetuada divisão: <br></br>Do Pré I ao 1o Ano é a “Coordenadora 1”. <br></br>E do 2o ao 5o Ano é a “Coordenadora 2” <br></br>Do 6o ao 9o Ano é a “Coordenadora 3”.</template></category>
+<category><pattern>_ FALAR COM A *</pattern><template>É efetuada divisão: <br></br>Do Pré I ao 1o Ano é a “Coordenadora 1”. <br></br>E do 2o ao 5o Ano é a “Coordenadora 2” <br></br>Do 6o ao 9o Ano é a “Coordenadora 3”.</template></category>
+<category><pattern>_ QUEM * COORDENADORA</pattern><template>É efetuada divisão: <br></br>Do Pré I ao 1o Ano é a “Coordenadora 1”. <br></br>E do 2o ao 5o Ano é a “Coordenadora 2” <br></br>Do 6o ao 9o Ano é a “Coordenadora 3”.</template></category>
+
+<!--Qual o horário de funcionamento da secretaria? -->
+
+<category><pattern>_ FICAM ABERTOS * QUE HORAS</pattern><template> Temos dois blocos de atendimento presencial: <br></br>-> Manhã (das 7h às 9h) <br></br> e <br></br> -> Tarde (das 13h às 15h).</template></category>
+<category><pattern>_ QUAL * DE FUNCIONAMENTO DA SECRETARIA</pattern><template> Temos dois blocos de atendimento presencial: <br></br>-> Manhã (das 7h às 9h) <br></br> e <br></br> -> Tarde (das 13h às 15h).</template></category>
+<category><pattern>_ QUAL * QUE A SECRETARIA FUNCIONA</pattern><template> Temos dois blocos de atendimento presencial: <br></br>-> Manhã (das 7h às 9h) <br></br> e <br></br> -> Tarde (das 13h às 15h).</template></category>
+
+<!--A partir de qual idade vocês pegam, qual a idade limite? -->
+
+<category><pattern>A PARTIR DE QUAL IDADE VOCÊS PEGAM</pattern><template>Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>
+<category><pattern>A PARTIR DE QUAL IDADE VOCÊS PEGAM E QUAL A DATA LIMITE</pattern><template>Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>     
+<category><pattern>QUAL A DATA LIMITE</pattern><template>Não entendi bem =\ pode detalhar melhor pra mim, por favor?</template></category>
+<category><pattern>A DATA LIMITE QUE VOCÊS PEGAM</pattern><template>Ah, sim! Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>
+<category><pattern>A PARTIR DE QUAL IDADE VOCÊS PEGAM</pattern><template>Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>
+<category><pattern>_ A PARTIR DE QUAL IDADE _</pattern><template>Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>
+<category><pattern>_ A IDADE MINIMA _</pattern><template>Pegamos a partir dos 4 anos de idade a completar até o dia 31/03. </template></category>
+
+
+<!--Qual material vocês utilizam, já esta incluído na mensalidade? -->
+
+<category><pattern>QUAL MATERIAL * UTILIZAM E * INCLUSO NA MENSALIDADE</pattern><template>Usamos material próprio e que não está incluso na mensalidade.</template></category>
+<category><pattern>QUAL MATERIAL _ UTILIZAM</pattern><template>Usamos material próprio e que não está incluso na mensalidade.</template></category>
+<category><pattern>QUAL O $VALOR DO $MATERIAL</pattern><template>Através desse canal não passamos valores. <br></br>Por favor, entre em contato com a secretaria pelo telefone para maiores informações.<br></br>O pagamento pode ser parcelado em 6x no cheque ou 3x no cartão.<br></br> Tel.11 3694-XXXX</template></category>
+<category><pattern>QUANTO CUSTA O MATERIAL</pattern><template>Através desse canal não passamos valores. <br></br>Por favor, entre em contato com a secretaria pelo telefone para maiores informações.<br></br>O pagamento pode ser parcelado em 6x no cheque ou 3x no cartão.<br></br> Tel.11 3694-XXXX</template></category>
+
+<!--Qual o número de crianças vocês tem por sala na Educação Infantil? -->
+
+<category><pattern>_ NÚMERO DE CRIANÇAS _</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>_ NÚMERO DE CRIANCAS _</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>_ NUMERO DE CRIANCAS _</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>_ NUMERO DE CRIANÇAS _</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>GOSTARIA DE SABER O NUMERO DE CRIANÇAS *</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>GOSTARIA DE SABER O NUMERO DE CRIANCAS *</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>GOSTARIA DE SABER O NÚMERO DE CRIANCAS *</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>* GOSTARIA DE SABER O NÚMERO DE CRIANCAS *</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>_ GOSTARIA DE SABER O _ CRIANCAS *</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+
+
+<!--Como faço para agendar uma visita ao Colégio e matricular meu(minha) filho(a)? -->
+
+<category><pattern>COMO FAÇO PARA AGENDAR UMA VISITA AO COLÉGIO E MATRICULAR MEU FILHO</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+<category><pattern>COMO FAÇO PARA AGENDAR UMA VISITA AO COLÉGIO E MATRICULAR MINHA FILHA</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+<category><pattern>COMO * PARA AGENDAR UMA VISITA AO * E MATRICULAR MINHA FILHA</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+<category><pattern>COMO * PARA AGENDAR UMA VISITA AO * E MATRICULAR MEU FILHO</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+<category><pattern>_ COMO * PARA AGENDAR UMA VISITA AO * E MATRICULAR MEU FILHO</pattern><template>Você pode agendar visita entrando em contato com a secretaria via telefone 11 XXXX-XXXX e se informar sobre o processo de matricula.</template></category>
+
+
+<!--Quais documentos são necessários para fazer a matricula? -->
+
+<category><pattern>QUAIS DOCUMENTOS SÃO NECESSÁRIOS PARA FAZER A MATRICULA</pattern><template>Para realização da mátricula são necessários:<br></br>(1) Certidão de Nascimento; <br></br>(2) RG e CPF dos pais e responsável pelo pagamento; <br></br>(3) Comprovante de Residência atualizado; <br></br>(4) Declaração escolar; <br></br>(5) Declaração de adimplência.</template></category>
+<category><pattern>QUAIS DOCUMENTOS _ PARA FAZER A MATRICULA</pattern><template>Para realização da mátricula são necessários:<br></br>(1) Certidão de Nascimento; <br></br>(2) RG e CPF dos pais e responsável pelo pagamento; <br></br>(3) Comprovante de Residência atualizado; <br></br>(4) Declaração escolar; <br></br>(5) Declaração de adimplência.</template></category>
+<category><pattern>_ QUAIS DOCUMENTOS * PARA FAZER A MATRICULA</pattern><template>Para realização da mátricula são necessários:<br></br>(1) Certidão de Nascimento; <br></br>(2) RG e CPF dos pais e responsável pelo pagamento; <br></br>(3) Comprovante de Residência atualizado; <br></br>(4) Declaração escolar; <br></br>(5) Declaração de adimplência.</template></category>
+<category><pattern>_ A $MATRICULA</pattern><template>Para realização da mátricula são necessários:<br></br>(1) Certidão de Nascimento; <br></br>(2) RG e CPF dos pais e responsável pelo pagamento; <br></br>(3) Comprovante de Residência atualizado; <br></br>(4) Declaração escolar; <br></br>(5) Declaração de adimplência.</template></category>
+
+
+<!--Qual o horário das aulas por turmas no colégio? -->
+
+<category><pattern>QUAL O HORÁRIO DAS AULAS POR TURMAS NO COLÉGIO</pattern><template>(1) Educação Infantil <br></br>Manhã: 8h/12h<br></br>Tarde: 13h/17h <br></br><br></br>(2) Ensino Fundamental I <br></br>Manhã: 8h/12h<br></br>Tarde: 13h/17 <br></br><br></br>(3) Ensino Fundamental II <br></br>Manhã: 8h/12h<br></br>Tarde: 13h/17 <br></br><br></br></template></category>
+<category><pattern>_ DAS AULAS POR TURMAS NO *</pattern><template>(1) Educação Infantil <br></br>Manhã: 8h/12h<br></br>Tarde: 13h/17h <br></br><br></br>(2) Ensino Fundamental I <br></br>Manhã: 8h/12h<br></br>Tarde: 13h/17 <br></br><br></br>(3) Ensino Fundamental II <br></br>Manhã: 8h/12h<br></br>Tarde: 13h/17 <br></br><br></br></template></category>
+<category><pattern>_ DAS AULAS</pattern><template>(1) Educação Infantil <br></br>Manhã: 8h/12h<br></br>Tarde: 13h/17h <br></br><br></br>(2) Ensino Fundamental I <br></br>Manhã: 8h/12h<br></br>Tarde: 13h/17 <br></br><br></br>(3) Ensino Fundamental II <br></br>Manhã: 8h/12h<br></br>Tarde: 13h/17 <br></br><br></br></template></category>
+
+
+<!--É obrigatória matricula na Educação Infantil? -->
+
+<category><pattern>É OBRIGATÓRIA MATRICULA NA EDUCAÇÃO INFANTIL</pattern><template>Sim, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>_ MATRICULA NA EDUCAÇÃO INFANTIL</pattern><template>Sim, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>_ MATRICULA NA _</pattern><template>Sim, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+
+
+<!--Meu filho tem 5 anos de idade e nunca frequentou escola, o que devo fazer? -->
+
+<category><pattern>MEU FILHO TEM 5 ANOS DE IDADE E NUNCA FREQUENTOU ESCOLA, O QUE DEVO FAZER</pattern><template>Pode ser matriculado sem problemas, seguindo o que é explicado no item 10.</template></category>
+<category><pattern>_ MEU FILHO TEM 5 ANOS * E NUNCA FREQUENTOU ESCOLA * FAZER</pattern><template>Pode ser matriculado normalmente. <br></br> Lembrando que, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>_ MEU FILHO _ NUNCA FREQUENTOU ESCOLA</pattern><template>Pode ser matriculado normalmente. <br></br> Lembrando que, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>_ MEU FILHO NUNCA FREQUENTOU ESCOLA</pattern><template>Pode ser matriculado normalmente. <br></br> Lembrando que, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>MINHA FILHA TEM 5 ANOS DE IDADE E NUNCA FREQUENTOU ESCOLA _ QUE DEVO FAZER</pattern><template>Pode ser matriculado sem problemas, seguindo o que é explicado no item 10.</template></category>
+<category><pattern>_ MINHA FILHA TEM 5 ANOS * E NUNCA FREQUENTOU ESCOLA * FAZER</pattern><template>Pode ser matriculado normalmente. <br></br> Lembrando que, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>_ MINHA FILHA _ NUNCA FREQUENTOU ESCOLA</pattern><template>Pode ser matriculado normalmente. <br></br> Lembrando que, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>_ MINHA FILHA NUNCA FREQUENTOU ESCOLA</pattern><template>Pode ser matriculado normalmente. <br></br> Lembrando que, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+
+
+<!--Estou com a mensalidade atrasada, o que posso fazer para regularizar? -->
+
+<category><pattern>ESTOU COM A MENSALIDADE ATRASADA, O QUE POSSO FAZER PARA REGULARIZAR</pattern><template>Se o atraso for inferior a 30 dias, basta gerar boleto seguindo procedimento que consta na agenda e efetuar o pagamento. Caso o atraso seja superior a 30 dias é necessário vir até a secretaria do Colégio.</template></category>
+<category><pattern>ESTOU COM _ ATRASADA, O QUE POSSO FAZER PARA REGULARIZAR</pattern><template>Se o atraso for inferior a 30 dias, basta gerar boleto seguindo procedimento que consta na agenda e efetuar o pagamento. Caso o atraso seja superior a 30 dias é necessário vir até a secretaria do Colégio.</template></category>
+<category><pattern>ESTOU COM _ ATRASADA, O QUE POSSO FAZER PARA REGULARIZAR</pattern><template>Se o atraso for inferior a 30 dias, basta gerar boleto seguindo procedimento que consta na agenda e efetuar o pagamento. Caso o atraso seja superior a 30 dias é necessário vir até a secretaria do Colégio.</template></category>
+<category><pattern>_ $ATRASO</pattern><template>Se o atraso for inferior a 30 dias, basta gerar boleto seguindo procedimento que consta na agenda e efetuar o pagamento. Caso o atraso seja superior a 30 dias é necessário vir até a secretaria do Colégio.</template></category>
+
+
+<!--No dia da reunião, posso levar meu(minha) filho(a)? -->
+
+<category><pattern>NO DIA DA REUNIÃO, POSSO LEVAR MEU FILHO</pattern><template>A orientação é de não trazer as crianças no dia da reunião. No entanto, caso tenha dificuldades com quem deixar, pode ser agendado com a Coordenação devido a limitação de vagas.</template></category>
+<category><pattern>NO DIA DA REUNIÃO, POSSO LEVAR MINHA) A</pattern><template>A orientação é de não trazer as crianças no dia da reunião. No entanto, caso tenha dificuldades com quem deixar, pode ser agendado com a Coordenação devido a limitação de vagas.</template></category>
+<category><pattern>POSSO LEVAR MEU FILHO NO DIA DA *</pattern><template>A orientação é de não trazer as crianças no dia da reunião. No entanto, caso tenha dificuldades com quem deixar, pode ser agendado com a Coordenação devido a limitação de vagas.</template></category>
+<category><pattern>POSSO LEVAR MINHA FILHA NO DIA DA *</pattern><template>A orientação é de não trazer as crianças no dia da reunião. No entanto, caso tenha dificuldades com quem deixar, pode ser agendado com a Coordenação devido a limitação de vagas.</template></category>
+
+
+
+</aiml>

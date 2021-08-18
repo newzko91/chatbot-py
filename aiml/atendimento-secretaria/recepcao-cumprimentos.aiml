@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+
+
+<!-- Cumprimentos -->
+
+<category><pattern>BOA TARDE</pattern><template>Boa tarde! Tudo bem? Qual o seu nome, por gentileza?</template></category>
+<category><pattern>BOM DIA</pattern><template>Bom dia! Tudo bem? Qual o seu nome, por gentileza?</template></category>
+<category><pattern>BOA NOITE</pattern><template>Boa noite! Tudo bem? Qual o seu nome, por gentileza?</template></category>
+<category><pattern>OI</pattern><template>Olá! Tudo bem? Em que posso ajudar?</template></category>   
+<category><pattern>OL*</pattern><template>Olá! Tudo bem? Em que posso ajudar?</template></category>     
+<category><pattern>OI, TUDO BEM</pattern><template>Olá! Tudo e você?</template></category>
+<category><pattern>QUAL O SEU NOME</pattern><template>Eu me chamo Adelaide e você?</template></category>
+<category><pattern>COM QUEM EU FALO</pattern><template>Eu sou a Adelaide, assistente virtual do Colégio, e você, quem é?</template></category>
+<category><pattern>MEU NOME É *</pattern><template>Olá <set name = "username"> <star/> </set>! Em que posso ajudar? </template></category>  
+<category><pattern>ME CHAMO *</pattern><template>Olá <set name = "username"> <star/> </set>! Em que posso ajudar? </template></category>  
+<category><pattern>EU SOU *</pattern><template>Olá <set name = "username"> <star/> </set>! Em que posso ajudar? </template></category>  
+
+<category><pattern>QUEM É A MI</pattern><template>Ahh, é uma maravilhosa</template></category>  
+<category><pattern>COMO ASSIM</pattern><template>Não sei te explicar, eu ainda não a conheco como você imagina</template></category>  
+<category><pattern>ONDE ELA ESTÁ AGORA</pattern><template>Em algum lugar do mundo, obviamente kkkkk</template></category>  
+<category><pattern>FAZENDO O QUE</pattern><template>Ela está lutando pra levantar, a perfeição pesa muito, sabe?</template></category>  
+<category><pattern>AHH DEIXA QUIETO</pattern><template>É melhor, tchau!</template></category>  
+
+
+  <category>
+    <pattern>_TUDO BEM_</pattern>
+     <template>
+          <srai>GREAT</srai>
+     </template>
+  </category>
+
+    <category>
+        <pattern>_ BEM TAMBÉM _</pattern>
+        <template>
+            <srai>GREAT</srai>
+        </template>
+    </category>
+
+        <category>
+        <pattern>_ BEM TAMBEM _</pattern>
+        <template>
+            <srai>GREAT</srai>
+        </template>
+    </category>
+
+<category><pattern>_ INTERESSANTE</pattern><template>Eu também acho! rs</template></category>
+
+    <category>
+        <pattern>GREAT</pattern>
+        <template>
+            <random>
+                <li>Que ótimo! :) </li>
+                <li> Que bom! </li>
+                <li>Muito bom! Graças a Deus!</li>
+                <li>Sempre bom saber que as pessoas estão bem, né?! rs</li>
+            </random>
+        </template>
+    </category>
+   
+   <!-- Despedida -->
+
+    <category>
+      <pattern>ERA SOMENTE *</pattern>
+      <template>
+        Certo <get name = "username"/>, sempre que precisar estamos por aqui. Até logo.
+      </template>  
+    </category>
+
+    <category>
+      <pattern>_ TCHAU _</pattern>
+      <template>
+        Certo <get name = "username"/>, sempre que precisar estamos por aqui. Até logo.
+      </template>  
+    </category>  
+
+    <category>
+      <pattern>_ SÓ ISSO _</pattern>
+      <template>
+        Certo <get name = "username"/>, sempre que precisar estamos por aqui. Até logo.
+      </template>  
+    </category>  
+
+    <category>
+      <pattern>_ SO ISSO _</pattern>
+      <template>
+        Certo <get name = "username"/>, sempre que precisar estamos por aqui. Até logo.
+      </template>  
+    </category>  
+
+
+    <category>
+      <pattern>*</pattern>
+        <template>
+          <random>
+                <li>Desculpe! ainda estou aprendendo, tenho algum conhecimento sobre Inteligência Artificial. Demais informações ainda não estão disponiveis em minha base de dados.</li>
+                <li>Ops! Não entendi você, poderia repetir de uma forma mais clara?</li>
+                <li>Legal! poderia me explicar melhor, não entendi o que você digitou.</li>
+                <li>Desculpe! Essa eu ainda não sei a resposta, também sou aluna haha Por favor, pode tentar usar outras palavras?</li>
+                <li>Caso eu não saiba, pode por favor entrar em contato via telefone 11 3694-XXXX</li>
+          </random>
+        </template>
+    </category>
+
+</aiml>

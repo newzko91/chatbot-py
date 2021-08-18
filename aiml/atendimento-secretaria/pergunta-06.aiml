@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Qual o número de crianças vocês tem por sala na Educação Infantil? -->
+
+<category><pattern>_ NÚMERO DE CRIANÇAS _</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>_ NÚMERO DE CRIANCAS _</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>_ NUMERO DE CRIANCAS _</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>_ NUMERO DE CRIANÇAS _</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>GOSTARIA DE SABER O NUMERO DE CRIANÇAS *</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>GOSTARIA DE SABER O NUMERO DE CRIANCAS *</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>GOSTARIA DE SABER O NÚMERO DE CRIANCAS *</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>* GOSTARIA DE SABER O NÚMERO DE CRIANCAS *</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>_ GOSTARIA DE SABER O _ CRIANCAS *</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>QUANTOS ALUNOS POR SALA _</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>QUAL * MEDIO DE ALUNOS POR SALA</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+<category><pattern>QUAL * MEDIO DE * POR SALA</pattern><template> Hoje temos uma média de 24 alunos por sala.</template></category>
+
+</aiml>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--É obrigatória matricula na Educação Infantil? -->
+
+<category><pattern>É OBRIGATÓRIA MATRICULA NA EDUCAÇÃO INFANTIL</pattern><template>Sim, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>_ MATRICULA NA EDUCAÇÃO INFANTIL</pattern><template>Sim, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>_ MATRICULA NA * INFANTIL</pattern><template>Sim, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>_ IDADE MINIMA DE MATRICULA</pattern><template>Sim, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>_ IDADE MINIMA PARA MATRICULA</pattern><template>Sim, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+<category><pattern>TEM IDADE MINIMA * MATRICULA</pattern><template>Sim, devido a ser a primeira etapa da educação da criança não é possível pular etapas.</template></category>
+
+
+</aiml>

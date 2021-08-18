@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Qual o horário de funcionamento da secretaria? -->
+
+<category><pattern>_ FICAM ABERTOS * QUE HORAS</pattern><template> Temos dois blocos de atendimento presencial: <br></br>-> Manhã (das 7h às 9h) <br></br> e <br></br> -> Tarde (das 13h às 15h).</template></category>
+<category><pattern>_ QUAL * DE FUNCIONAMENTO DA SECRETARIA</pattern><template> Temos dois blocos de atendimento presencial: <br></br>-> Manhã (das 7h às 9h) <br></br> e <br></br> -> Tarde (das 13h às 15h).</template></category>
+<category><pattern>_ QUAL * QUE A SECRETARIA FUNCIONA</pattern><template> Temos dois blocos de atendimento presencial: <br></br>-> Manhã (das 7h às 9h) <br></br> e <br></br> -> Tarde (das 13h às 15h).</template></category>
+<category><pattern>A SECRETARIA FUNCIONA * QUE HORAS</pattern><template> Temos dois blocos de atendimento presencial: <br></br>-> Manhã (das 7h às 9h) <br></br> e <br></br> -> Tarde (das 13h às 15h).</template></category>
+<category><pattern>* QUE HORAS A SECRETARIA FICA ABERTA</pattern><template> Temos dois blocos de atendimento presencial: <br></br>-> Manhã (das 7h às 9h) <br></br> e <br></br> -> Tarde (das 13h às 15h).</template></category>
+<category><pattern>* FUNCIONAM * QUE HORAS</pattern><template> Temos dois blocos de atendimento presencial: <br></br>-> Manhã (das 7h às 9h) <br></br> e <br></br> -> Tarde (das 13h às 15h).</template></category>
+<category><pattern>QUAL HORARIO POSSO IR * A SECRETARIA</pattern><template> Temos dois blocos de atendimento presencial: <br></br>-> Manhã (das 7h às 9h) <br></br> e <br></br> -> Tarde (das 13h às 15h).</template></category>
+<category><pattern>EM QUAIS HORARIOS POSSO IR * A SECRETARIA</pattern><template> Temos dois blocos de atendimento presencial: <br></br>-> Manhã (das 7h às 9h) <br></br> e <br></br> -> Tarde (das 13h às 15h).</template></category>
+<category><pattern>EM QUAIS HORARIOS POSSO ESTAR INDO A SECRETARIA</pattern><template> Temos dois blocos de atendimento presencial: <br></br>-> Manhã (das 7h às 9h) <br></br> e <br></br> -> Tarde (das 13h às 15h).</template></category>
+
+
+</aiml>

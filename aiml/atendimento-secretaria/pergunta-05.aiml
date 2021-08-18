@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--Qual material vocês utilizam, já esta incluído na mensalidade? -->
+
+<category><pattern>QUAL MATERIAL * UTILIZAM E * INCLUSO NA MENSALIDADE</pattern><template>Usamos material próprio e que não está incluso na mensalidade.</template></category>
+<category><pattern>QUAL MATERIAL _ UTILIZAM</pattern><template>Usamos material próprio e que não está incluso na mensalidade.</template></category>
+<category><pattern>QUAL O $VALOR DO $MATERIAL</pattern><template>Através desse canal não passamos valores. <br></br>Por favor, entre em contato com a secretaria pelo telefone para maiores informações.<br></br>O pagamento pode ser parcelado em 6x no cheque ou 3x no cartão.<br></br> Tel.11 3694-XXXX</template></category>
+<category><pattern>QUANTO CUSTA O MATERIAL</pattern><template>Através desse canal não passamos valores. <br></br>Por favor, entre em contato com a secretaria pelo telefone para maiores informações.<br></br>O pagamento pode ser parcelado em 6x no cheque ou 3x no cartão.<br></br> Tel.11 3694-XXXX</template></category>
+
+</aiml>

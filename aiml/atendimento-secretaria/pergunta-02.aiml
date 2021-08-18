@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!-- Gostaria de falar com a coordenadora. -->
+
+<category><pattern>POSSO FALAR COM A COORDENADORA</pattern><that>Qual a turma do aluno?</that><template>Certo, melhoras pra ele. Traga o atestado médico que ele poderá fazer a prova. </template></category>
+<category><pattern>_ FALAR COM A COORDENADORA</pattern><template>É efetuada divisão: <br></br>Do Pré I ao 1o Ano é a “Coordenadora 1”. <br></br>E do 2o ao 5o Ano é a “Coordenadora 2” <br></br>Do 6o ao 9o Ano é a “Coordenadora 3”.</template></category>
+<category><pattern>_ FALAR COM A *</pattern><template>É efetuada divisão: <br></br>Do Pré I ao 1o Ano é a “Coordenadora 1”. <br></br>E do 2o ao 5o Ano é a “Coordenadora 2” <br></br>Do 6o ao 9o Ano é a “Coordenadora 3”.</template></category>
+<category><pattern>_ QUEM * COORDENADORA</pattern><template>É efetuada divisão: <br></br>Do Pré I ao 1o Ano é a “Coordenadora 1”. <br></br>E do 2o ao 5o Ano é a “Coordenadora 2” <br></br>Do 6o ao 9o Ano é a “Coordenadora 3”.</template></category>
+<category><pattern>QUEM É A COORDENADORA DO _</pattern><template>É efetuada divisão: <br></br>Do Pré I ao 1o Ano é a “Coordenadora 1”. <br></br>E do 2o ao 5o Ano é a “Coordenadora 2” <br></br>Do 6o ao 9o Ano é a “Coordenadora 3”.</template></category>
+<category><pattern>QUEM E A COORDENADORA DO _</pattern><template>É efetuada divisão: <br></br>Do Pré I ao 1o Ano é a “Coordenadora 1”. <br></br>E do 2o ao 5o Ano é a “Coordenadora 2” <br></br>Do 6o ao 9o Ano é a “Coordenadora 3”.</template></category>
+
+
+</aiml>

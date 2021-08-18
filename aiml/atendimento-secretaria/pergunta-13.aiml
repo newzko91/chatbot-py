@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--No dia da reunião, posso levar meu(minha) filho(a)? -->
+
+<category><pattern>NO DIA DA REUNIÃO, POSSO LEVAR MEU FILHO</pattern><template>A orientação é de não trazer as crianças no dia da reunião. No entanto, caso tenha dificuldades com quem deixar, pode ser agendado com a Coordenação devido a limitação de vagas.</template></category>
+<category><pattern>NO DIA DA REUNIÃO, POSSO LEVAR MINHA) A</pattern><template>A orientação é de não trazer as crianças no dia da reunião. No entanto, caso tenha dificuldades com quem deixar, pode ser agendado com a Coordenação devido a limitação de vagas.</template></category>
+<category><pattern>POSSO LEVAR MEU FILHO NO DIA DA *</pattern><template>A orientação é de não trazer as crianças no dia da reunião. No entanto, caso tenha dificuldades com quem deixar, pode ser agendado com a Coordenação devido a limitação de vagas.</template></category>
+<category><pattern>POSSO LEVAR MINHA FILHA NO DIA DA *</pattern><template>A orientação é de não trazer as crianças no dia da reunião. No entanto, caso tenha dificuldades com quem deixar, pode ser agendado com a Coordenação devido a limitação de vagas.</template></category>
+<category><pattern>TEM COMO EU LEVAR MINHA FILHA NO DIA DA *</pattern><template>A orientação é de não trazer as crianças no dia da reunião. No entanto, caso tenha dificuldades com quem deixar, pode ser agendado com a Coordenação devido a limitação de vagas.</template></category>
+<category><pattern>TEM COMO EU LEVAR MEU FILHO NO DIA DA *</pattern><template>A orientação é de não trazer as crianças no dia da reunião. No entanto, caso tenha dificuldades com quem deixar, pode ser agendado com a Coordenação devido a limitação de vagas.</template></category>
+<category><pattern>TEM COMO EU LEVAR MEU FILHO NA *</pattern><template>A orientação é de não trazer as crianças no dia da reunião. No entanto, caso tenha dificuldades com quem deixar, pode ser agendado com a Coordenação devido a limitação de vagas.</template></category>
+<category><pattern>TEM COMO EU LEVAR MINHA FILHA NA *</pattern><template>A orientação é de não trazer as crianças no dia da reunião. No entanto, caso tenha dificuldades com quem deixar, pode ser agendado com a Coordenação devido a limitação de vagas.</template></category>
+<category><pattern>MEU FILHO PODE IR COMIGO NA *</pattern><template>A orientação é de não trazer as crianças no dia da reunião. No entanto, caso tenha dificuldades com quem deixar, pode ser agendado com a Coordenação devido a limitação de vagas.</template></category>
+<category><pattern>MINHA FILHA PODE IR COMIGO NA *</pattern><template>A orientação é de não trazer as crianças no dia da reunião. No entanto, caso tenha dificuldades com quem deixar, pode ser agendado com a Coordenação devido a limitação de vagas.</template></category>
+
+
+</aiml>
