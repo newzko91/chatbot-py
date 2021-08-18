@@ -1,0 +1,24 @@
+Meu filho encontra-se doente e tem prova, como proceder?
+Gostaria de falar com a coordenadora.
+Qual o horário de funcionamento da secretaria?
+A partir de qual idade vocês pegam, qual a idade limite?
+Qual material vocês utilizam, já esta incluído na mensalidade?
+Qual o número de crianças vocês tem por sala na Educação Infantil?
+Como faço para agendar uma visita ao Colégio e matricular meu(minha) filho(a)?
+Quais documentos são necessários para fazer a matricula?
+Qual o horário das aulas por turmas no colégio?
+É obrigatória matricula na Educação Infantil?
+Meu filho tem 5 anos de idade e nunca frequentou escola, o que devo fazer?
+Estou com a mensalidade atrasada, o que posso fazer para regularizar?
+No dia da reunião, posso levar meu(minha) filho(a)?
+
+
+'''
+	# Current date
+	x = datetime.datetime.now()
+	y = x.strftime("%Y-%m-%d %H:%M:%S")
+	
+	# Creates logfile in append mode and add timestamp
+	f = open("uni-bot-log.txt", "a")
+	f.write(y+"\n")
+'''
