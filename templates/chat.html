@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UNIP TCC | Chatbot</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <!-- Em FLASK os arquivos CSS e JS locais devem estar numa pasta chamada static -->
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='chat.css') }}"> 
+    </head>
+    <body>
+        <div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <div id="chatPanel" class="panel panel-info">
+                        <div class="panel-heading">
+                            <strong><span class="glyphicon glyphicon-send"></span> Atendimento Escola Básica </strong>
+                        </div>
+                        <div class="panel-body fixed-panel">
+                            <ul class="media-list"></ul>
+                        </div>
+                        <div class="panel-footer">
+                            <div class="is_typing">
+                                <em id="user-is-typing"></em>
+                            </div>
+                            <form method="post" id="chatbot-form" autocomplete="off">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Digite sua mensagem" name="messageText" id="messageText" autofocus/>
+                                    <span class="input-group-btn">
+                                        <span class="glyphicon glyphicon-send"></span>
+                                        <button class="btnChat" type="button" id="btnEnviar">Enviar</button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script>
+            var exports = {};
+        </script>
+        <script src="https://unpkg.com/speech-to-text@0.7.4/lib/index.js"></script>
+        <!-- Em FLASK os arquivos CSS e JS locais devem estar numa pasta chamada static -->
+        <script type="text/javascript" src="{{ url_for('static', filename='chat.js') }}"></script>
+    </body>
+</html>
